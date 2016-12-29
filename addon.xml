@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.etvnet" name="eTVnet XBMC Add-ons" version="1.0.1" provider-name="etvnet">
+	<extension point="xbmc.addon.repository" name="eTVnet XBMC Add-ons">
+		<info compressed="false">http://etvnet.com/xbmc/beta/addons.xml</info>
+		<checksum>http://etvnet.com/xbmc/beta/addons.xml.md5</checksum>
+		<datadir zip="true">http://etvnet.com/xbmc/beta/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from eTVnet Add-on Repository</summary>
+		<description>eTVnet Application for XBMC</description>
+		<disclaimer>There are add-ons that allow viewing popular Russian eTVnet resource in the program XBMC</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
